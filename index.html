@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prep2Hire - Find Jobs and Prepare Easily</title>
+    <meta name="description" content="Prep2Hire helps students find jobs and prepare for them.">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo" data-route="home">
+                <i class="fa-solid fa-graduation-cap"></i> Prep2Hire
+            </a>
+            <nav class="nav-menu">
+                <ul class="nav-links">
+                    <li><a href="#" data-route="home" class="active">Home</a></li>
+                    <li><a href="#" data-route="jobs">Jobs</a></li>
+                    <li><a href="#" data-route="preparation">Preparation</a></li>
+                    <li><a href="#" data-route="courses">Courses</a></li>
+                    <li><a href="#" data-route="roadmap">Roadmap</a></li>
+                    <li><a href="#" data-route="contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-actions">
+                <div class="theme-toggles">
+                    <button id="light-mode-btn" class="theme-btn active" title="Light Mode"><i class="fa-solid fa-sun"></i></button>
+                    <button id="dark-mode-btn" class="theme-btn" title="Dark Mode"><i class="fa-solid fa-moon"></i></button>
+                </div>
+                <a href="#" data-route="login" class="btn btn-primary" style="padding: 8px 20px;">Login</a>
+                <a href="#" data-route="dashboard" class="btn btn-outline dashboard-btn"><i class="fa-solid fa-user"></i> Dashboard</a>
+                <button class="mobile-toggle" id="mobile-toggle"><i class="fa-solid fa-bars"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <main id="app-content">
+        <!-- Views injected via JS -->
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <i class="fa-solid fa-graduation-cap"></i> Prep2Hire
+            </div>
+            <p>&copy; 2026 Prep2Hire. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
